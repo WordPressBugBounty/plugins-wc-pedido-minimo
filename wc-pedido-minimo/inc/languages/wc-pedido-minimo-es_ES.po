@@ -1,0 +1,118 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Pedido Mínimo 2.0.3\n"
+"POT-Creation-Date: 2018-01-14 03:10-0300\n"
+"PO-Revision-Date: 2020-09-21 18:06-0300\n"
+"Last-Translator: Daniel Ferraz Ramos <daniel@art2web.com.br>\n"
+"Language-Team: \n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.1\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: load-admin-settings.php:75
+msgid "WC Pedido Mínimo"
+msgstr "WC Pedido Mínimo"
+
+#: load-admin-settings.php:92
+msgid "Woocommerce Pedido Mínimo"
+msgstr "Woocommerce Pedido Mínimo"
+
+#: load-admin-settings.php:96
+msgid "Plugin ativado"
+msgstr "Plugin activado"
+
+#: load-admin-settings.php:98
+msgid "Ative ou desative o plugin."
+msgstr "Active o desactive lo plugin."
+
+#: load-admin-settings.php:102
+msgid "Selecione o modo de funcionamento"
+msgstr "Seleccione el modo de operación"
+
+#: load-admin-settings.php:104
+msgid "Escolha se o plugin vai funcionar por valor ou quantidade."
+msgstr "Elija si el plugin funcionará por valor o cantidad."
+
+#: load-admin-settings.php:108
+msgid "Valor"
+msgstr "Valor"
+
+#: load-admin-settings.php:109
+msgid "Quantidade"
+msgstr "Cantidad"
+
+#: load-admin-settings.php:113
+msgid "Valor mínimo do pedido em"
+msgstr "Valor mínimo de pedido em"
+
+#: load-admin-settings.php:115
+msgid "Pedidos com valor inferior não serão finalizados."
+msgstr "Los pedidos con un valor inferior no serán finalizados."
+
+#: load-admin-settings.php:120
+msgid "Quantidade mínima de items no pedido"
+msgstr "Cantidad mínima de artículos en el pedido"
+
+#: load-admin-settings.php:122
+msgid "Pedidos com quantidade de itens inferior não serão finalizados."
+msgstr "Los pedidos con un valor inferior no serán finalizados."
+
+#: load-admin-settings.php:127
+msgid "Selecione uma função de usuário"
+msgstr "Seleccione una función de usuario"
+
+#: load-admin-settings.php:129
+msgid ""
+"As regras do plugin serão aplicadas somente para a função de usuário "
+"selecionada.<br>Ao selecionar \"Nenhuma Função\", o plugin irá funcionar "
+"para qualquer tipo de usuário."
+msgstr ""
+"Cómo se aplicarán las reglas del complemento durante algún tiempo a un rol "
+"de usuario seleccionado. <br> O seleccione \"Sin función\", o el plugin "
+"funcionará para cualquier tipo de usuario."
+
+#: load-admin-settings.php:135
+msgid "Selecione o(s) método(s) de pagamento"
+msgstr "Seleccione el modo de pagar"
+
+#: load-admin-settings.php:137
+msgid ""
+"Utilize a tecla CTRL para selecionar múltiplas formas de pagamento.<br /"
+">Caso selecionada, essa opção irá fazer com que o valor/quantidade mínima "
+"seja aplicada somente com a forma de pagamento selecionada.<br />Essa opção "
+"só terá validade na etapa de <strong>CHECKOUT</strong>."
+msgstr ""
+"Utilice la tecla CTRL para seleccionar varias formas de pago. <br /> Si se "
+"selecciona, esta opción hará que lo valor/cantidad mínima se aplique solo "
+"con la forma de pago seleccionada. <br /> Esta opción solo será válida en  "
+"<strong> CHECKOUT </strong>."
+
+#: load-admin-settings.php:157
+msgid "Nenhuma Função"
+msgstr "Sin función"
+
+#: load-admin-settings.php:168
+msgid "Nenhum"
+msgstr "Ninguno"
+
+#: load-pedido-minimo.php:25
+msgid "O Pedido deve ter o valor mínimo de"
+msgstr "El pedido debe tener un valor mínimo de"
+
+#: load-pedido-minimo.php:26
+msgid "O Valor total do seu pedido agora é de"
+msgstr "El valor total de tu pedido ahora es de"
+
+#: load-pedido-minimo.php:27
+msgid "Você precisa comprar mais %s para atingir o valor mínimo da loja"
+msgstr "Necesitas comprar más de %s para alcanzar el valor mínimo de la tienda"
+
+#: load-pedido-minimo.php:98
+msgid "Este pedido requer a(s) seguinte(s) forma(s) de pagamento:"
+msgstr "Este pedido requiere las siguientes formas de pago:"

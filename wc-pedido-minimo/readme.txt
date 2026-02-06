@@ -1,22 +1,25 @@
-﻿=== WooCommerce Pedido Mínimo ===
+﻿=== Pedido Mínimo para WooCommerce ===
 Contributors: art2web
 Donate link: http://art2web.com.br/doacoes
 Tags: woocommerce, pedido minimo, pedido mínimo, minimum order, plugin woocommerce
-Requires at least: 4.0
-Tested up to: 5.5.1
-Stable tag: 2.1.0
-Requires PHP: 5.6
+Requires at least: 6.7
+Tested up to: 6.8.2
+Stable tag: 3.0.0
+Requires PHP: 8.0
+Requires Plugins: woocommerce
+WC requires at least: 7.2
+WC tested up to: 10.2.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Plugin para configurar valor mínimo ou quantidade mínima de items para finalização de pedidos no WooCommerce. O plugin também permite selecionar uma função de usuário do Wordpress para aplicar as regras configuradas.
+Plugin para configurar valor mínimo ou quantidade mínima de items para finalização de pedidos no WooCommerce. O plugin também permite selecionar função de usuário do Wordpress e forma de pagamento para aplicar as regras configuradas.
 
 == Description ==
 
 Defina um valor mínimo ou quantidade mínima de itens para permitir a finalização de pedidos no WooCommerce.
 
 Caso o cliente tente finalizar a compra sem atingir o valor mínimo ou quantidade mínima de itens, será exibida mensagem informando o valor/quantidade mínimo(a), o valor/item(ns) total do pedido e o valor/item(ns) necessário(s) para atingir o mínimo configurado para a loja.
-O plugin também permite selecionar uma função de usuário do Wordpress para aplicar as regras do plugin.
+O plugin também permite selecionar função de usuário do Wordpress e forma de pagamento para aplicar as regras configuradas.
 
 * É necessário que o WooCommerce esteja instalado e ativo para utilizar este plugin.
 
@@ -62,7 +65,7 @@ Descripción: Plugin para establecer el valor mínimo para el pago del pedido en
 Este plugin possui licença GPL.
 
 = Quais os requisitos necessários para utilizar o plugin? =
-* WooCommerce 3.0 ou posterior.
+* WooCommerce 7.2 ou posterior.
 
 = O plugin leva em consideração o valor do frete? =
 * Não. O cálculo só leva em consideração os produtos inseridos no carrinho de compras.
@@ -123,6 +126,14 @@ Contribuição do @myst1010
 - Adicionada a função de selecionar método de pagamento requerido para finalização do pedido.
 É uma regra adicional que é validada na etapa de Checkout.
 
-== Upgrade Notice ==
+= 3.0.0 =
 
-= 2.1.1 =
+- Troca de nome e identidade visual do plugin para adequação com as diretrizes do repositório oficial do Wordpress.
+
+- Refatoração para compatibilidade com versões atuais do PHP, Wordpress e Woocommerce.
+
+- Compatibilidade com checkout clássico ou por blocos.
+
+- Correção no caminho da pasta de traduções.
+
+== Upgrade Notice ==

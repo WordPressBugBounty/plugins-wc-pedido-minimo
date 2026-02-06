@@ -152,23 +152,24 @@ WC_Settings_Pedido_Minimo_Tab::init();
 
 function wc_pedido_minimo_get_role_names() {
     global $wp_roles;
-    if ( ! isset( $wp_roles ) )
+    if ( ! isset( $wp_roles ) ) {
         $wp_roles = new WP_Roles();
-        $select_null = ['' => __('Nenhuma Função', 'wc-pedido-minimo')];
-        $all_roles = $wp_roles->get_names();
-        $full_array = array_merge($select_null, $all_roles);
-    return $full_array;
+    }
+    $select_null = [0 => __( 'Nenhuma Função', 'wc-pedido-minimo' )];
+    $all_roles   = $wp_roles->get_names();
+    return array_merge( $select_null, $all_roles );
 }
 
 
 function wc_pedido_minimo_get_payment_methods() {
-    $gateways = WC()->payment_gateways->get_available_payment_gateways();
+    $gateways        = WC()->payment_gateways->get_available_payment_gateways();
     $enabled_gateways = [];
-    if ( isset( $gateways ) )
-        $select_null = [0 => __('Nenhum', 'wc-pedido-minimo')];
-        foreach ($gateways as $gateway) {
-            $enabled_gateways[$gateway->id] .= $gateway->title;
+    $select_null     = [0 => __( 'Nenhum', 'wc-pedido-minimo' )];
+    if ( ! empty( $gateways ) ) {
+        foreach ( $gateways as $gateway ) {
+            $enabled_gateways[ $gateway->id ] = $gateway->title;
         }
-        $full_array = array_merge($select_null, $enabled_gateways);
-    return $full_array;
+    }
+    return array_merge( $select_null, $enabled_gateways );
 }
+
